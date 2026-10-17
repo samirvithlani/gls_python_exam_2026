@@ -1,0 +1,83 @@
+arithmetic op :
+    +,-,*,/,%,//,**
+asignment op
+    =,A+=
+logical op
+    and or not
+bitwise op
+    !,&,^,~,<<,>>
+relationl op
+
+
+membership op:
+    in ,not in
+identity op:
+    is, is not
+
+
+
+decisoin making statements:
+if else
+swith case [match case]
+loops
+
+enter control loops
+    for while
+exit control loop
+
+
+for(i=1;i<=10;i++){
+
+}
+
+range()
+
+
+
+
+bitwise operator:
+left shift:
+    when you do left shift you push all the bits to the left and add zero to right:
+    10<<1 (shift left by 1 position)
+    og:          :0000 1010
+    shift to left:0001 0100
+          1
+    10 * 2  =20
+
+    10<<2 shifted by 2 position
+    og:     :0000 1010
+    shift   :0010 1000
+        2
+    10 *2 = 40
+right shift:
+    when you shift to right you push all bits to the right, the bits far right simply fall off and deleted
+
+    10: 0000 1010 :10
+    rs: 0000 0101 :5
+          1
+    10 / 2  =5
+
+    30>>4
+          4
+    30 / 2
+    30/16
+
+    -------->
+    & operator:
+
+    returns 1 only if both bits are 1 else 0
+
+    10 / 12
+
+    1010  10
+    1100  12
+    ----
+    1000  8
+
+    | operator:
+    1010
+    1100 
+    ----
+    1110
+
+
